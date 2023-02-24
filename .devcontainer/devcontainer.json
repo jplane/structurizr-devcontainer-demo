@@ -1,0 +1,14 @@
+{
+    "name": "structurizr",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ciarant.vscode-structurizr"
+            ]        
+        }
+    },
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose"
+  }
